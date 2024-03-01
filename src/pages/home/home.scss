@@ -1,0 +1,16 @@
+$black: #11151C;
+$red: #E63232;
+
+.home {
+    .intro-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            width: 45%;
+            border-radius: 50%;
+            border: .7rem solid $black;
+        }
+    }
+}
